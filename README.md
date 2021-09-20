@@ -36,3 +36,17 @@
 ## Live reload for android
 ionic capacitor run android -l --host=192.168.1.104
 
+## PWA
+1) ng add @angular/pwa
+2) ionic build --prod --service-worker
+3) npm install -g firebase-tools
+4) Create fire project google firebase console
+5) Hosting => Folow next instructions
+6) firebase login --reauth
+7) firebase init
+8) firebase deploy
+
+udemy-ionic5-news.firebaseapp.com
+
+## Icons
+https://app-manifest.firebaseapp.com/
