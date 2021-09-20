@@ -1,7 +1,7 @@
 {
-  "name": "noticias",
+  "name": "udemy-ionic5-news",
   "integrations": {
-    "cordova": {}
+    "capacitor": {}
   },
   "type": "angular"
 }
